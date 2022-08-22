@@ -1,0 +1,9 @@
+source;dose;tag;placeholder
+cosmica;0.4;naturale;0
+gamma;0.5;naturale;0
+interna;0.3;naturale;0
+radon;1.2;naturale;0
+medical;0.4;artificial;0
+testing;0.005;artificial;0
+chernobyl;0.002;artificial;0
+nuclear plant;0.0002;artificial;0
