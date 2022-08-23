@@ -1,2 +1,2 @@
 # RadPy
-Graphic representation of radiation dose intake
+An interactive graphic representation of radiation dose intake 
