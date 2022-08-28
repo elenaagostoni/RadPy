@@ -1,0 +1,15 @@
+The radiation dose limit for the public is 5mSv/y
+
+Radiation sources:
+  Natural:
+      -cosmic 0,4 mSv
+      -gamma rays 0,5 mSv
+      -internal radiation 0,3 mSv
+      -radon  1,2 mSv
+  Artificial:
+      -Medical  0,4 mSv
+      -Atmospheric nuclear testing 0,005 mSv
+      -Chernobyl  0,002 mSv
+      -nuclear power  0,0002 mSv
+                                              
+                                               tot dose: 2,8 mSv
