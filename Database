@@ -1,3 +1,6 @@
+SOurce is:
+https://www.iaea.org/sites/default/files/radiation0204.pdf
+
 The radiation dose limit for the public is 5mSv/y
 
 Radiation sources:
@@ -13,3 +16,48 @@ Radiation sources:
       -nuclear power  0,0002 mSv
                                               
                                                tot dose: 2,8 mSv
+
+--------------------------------------------------------------------------------------------------
+
+
+More in depth:
+
+  Artificial, nuclear industry:
+      -uranium mining  4,5 mSv
+      -uranium milling  3,3 mSv
+      -enrichment   0,1 mSv
+      -fuel fabrication   1 mSv
+      -nuclear reactors   1,2 mSv
+      -reproccessing    1,5 mSv
+      
+  Artificial, medical industry:
+      -radiology    0,5 mSV
+      -dentistry    0,06 mSv
+      -nuclear medicine   0,8 mSv
+      -radiotherapy   0,6 mSv
+      
+  Artificial, industrial sources:
+      -irradiation    0,1 mSv
+      -radiography    1,6 mSv
+      -isotope production   1,9 mSv
+      -well-logging   0,4 mSv
+      -accelerators   0,8 mSv
+      -luminizing   0,4 mSv
+  
+  Natural, radon sources:
+      -coal mines   0,7 mSv
+      -metal mines    2,7 mSv
+      -premises above ground    4,8 mSv
+          
+  Natural, cosmic sources:
+      -civil aricrew    3,0 mSv
+-----------------------------------------------------------------------------------------------------  
+  
+Medical procedures:
+      -Organ scan:  
+          -Brain   7 mSv
+          -bone   4 mSv
+          -thyroid, lung    1mSv
+          -liver, kidney    1 mSV
+          
+          
