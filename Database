@@ -1,5 +1,35 @@
-SOurce is:
+
+Source is:
 https://www.iaea.org/sites/default/files/radiation0204.pdf
+https://www.nrc.gov/
+------------------------------------------------------------------------------------------------
+
+Important considerations that would be nice to include:
+-dose considering elevation
+-dose considering area of residence
+-dose considering a stone, brick or concrete building
+-dose considering food, water and air
+-dose considering nuclear fallout
+-dose considering miles travelled by plane
+
+Also some fun questions would be, keeping in mind that:
+100 REM = 1 Sv
+
+Do you...?
+
+ Have porcelain crowns or false teeth (0.07 mrem) 
+ Use gas lantern mantles when camping (0.003 mrem) 
+ Wear a luminous wristwatch (LCD) (0.006 mrem)
+ Use luggage inspection at airports (using typical x-ray machine) (0.002 mrem)
+ Watch TV (1 mrem) ***
+ Use a video display terminal (1 mrem) ***
+ Have a smoke detector (0.008 mrem)
+ Wear a plutonium-powered cardiac pacemaker (100 mrem)
+ Have had diagnostic x-rays (e.g., upper and lower gastrointestinal, chest) (40 mrem)**
+ Have had nuclear medical procedures (e.g., thyroid scans) (14 mrem)**
+ Live within 50 miles of a nuclear power plant (pressurized water reactor) (0.0009 mrem)
+ Live within 50 miles of a coal-fired electrical utility plant (0.03 mrem)
+------------------------------------------------------------------------------------------------
 
 The radiation dose limit for the public is 5mSv/y
 
@@ -20,7 +50,7 @@ Radiation sources:
 --------------------------------------------------------------------------------------------------
 
 
-More in depth:
+Average annual effective doses in different occupations:
 
   Artificial, nuclear industry:
       -uranium mining  4,5 mSv
@@ -60,4 +90,21 @@ Medical procedures:
           -thyroid, lung    1mSv
           -liver, kidney    1 mSV
           
-          
+-----------------------------------------------------------------------------------------------------
+
+Exposure of aircraft crew to cosmic radiation:
+
+      -vancouver -> honolulu   14,2 microSv    
+      -frankfurt -> dakar    16,0 microSv    
+      -madrid -> johannesburg   17,7 microSv    
+      -madrid -> santiago del chile   2,7 microSv    
+      -copenhagen -> bangkok    30,2 microSv    
+      -montreal -> london   47,8 microSv    
+      -helsinki -> new york   49,7 microSv    
+      -frankfurt -> fairbanks, alaska   50,8 microSv    
+      -london -> tokyo    67,0 microSv    
+      -paris -> san francisco   84,9 microSv    
+      
+----------------------------------------------------------------------------------------------------
+
+
