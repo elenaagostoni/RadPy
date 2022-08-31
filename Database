@@ -2,6 +2,12 @@
 Source is:
 https://www.iaea.org/sites/default/files/radiation0204.pdf
 https://www.nrc.gov/
+
+The limit for the public of effective dose is 1 mSv/y (individuals not exposed on a professional level)
+The limit for cat B workers is 6 mSv/y (medical professional, aircrew staff...)
+The limit for cat A is 20 mSv/y (senior experts in case of accidental events...)
+
+There are different limits for different parts of the body (partial irradiation), the eye's crystalline is especially sensitive (15 mSv/y for the public) 
 ------------------------------------------------------------------------------------------------
 
 Important considerations that would be nice to include:
@@ -30,8 +36,6 @@ Do you...?
  Live within 50 miles of a nuclear power plant (pressurized water reactor) (0.0009 mrem)
  Live within 50 miles of a coal-fired electrical utility plant (0.03 mrem)
 ------------------------------------------------------------------------------------------------
-
-The radiation dose limit for the public is 5mSv/y
 
 Radiation sources:
   Natural:
