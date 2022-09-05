@@ -112,6 +112,7 @@ Organ scan:
 - paris &rarr; san francisco   [84,9 mSv]
 
 ### Radiation sources considering living conditions
+100 REM = 1 Sv
 
 -	At sea level    26 mrem
 -	At altitude lower than 300m  28 mrem
@@ -120,5 +121,5 @@ Organ scan:
 
 - living in stone, brick house    7 mrem
 
--Coal fired power plant   0,03 mrem
+- Coal fired power plant   0,03 mrem
 -	Nuclear power plant   0,0009 mrem
