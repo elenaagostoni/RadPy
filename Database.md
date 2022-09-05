@@ -110,3 +110,15 @@ Organ scan:
 - frankfurt &rarr; fairbanks, alaska   [50,8 mSv]    
 - london &rarr; tokyo    [67,0 mSv]    
 - paris &rarr; san francisco   [84,9 mSv]
+
+### Radiation sources considering living conditions
+
+-	At sea level    26 mrem
+-	At altitude lower than 300m  28 mrem
+-	At an altitude between 300-600m   31 mrem
+-	At an altitude between 600-1200m    40 mrem
+
+- living in stone, brick house    7 mrem
+
+-Coal fired power plant   0,03 mrem
+-	Nuclear power plant   0,0009 mrem
