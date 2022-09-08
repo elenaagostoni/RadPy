@@ -15,17 +15,18 @@ personalized estimate of the effective dose you are subjected to each year.',
 
 
 ### Dose limit ###
-dose_df = df.loc[df['type'] == 'limit']
-
-category = eg.choicebox(msg='Are you a worker in...', title='Work category', choices=dose_df.index)
-dose_limit = dose_df.at[category, dose]
+dose_dataframe = df.loc[df['type'] == 'limit']
+categories = dose_df.index
+category = eg.choicebox(msg='Are you a worker in...', title='Work category', choices=categories)
+dose_limit = dose_dataframe.at[category, dose]
 
 print(f"Dose limit: {dose_limit} mSv/year")
 
 ### Altitude ###
-alt_df = df.loc[df['type'] == 'altitude']
+alt_dataframe = df.loc[df['type'] == 'altitude']
+altitudes = alt_dataframe.index
 
-altitude = eg.choicebox(msg='Do you live at...', title='Altitude', choices=alt_df.index)
-altitude_dose = alt_df.at[altitude, dose]
+altitude = eg.choicebox(msg='Do you live at...', title='Altitude', choices=altitudes)
+altitude_dose = alt_dataframe.at[altitude, dose]
 
 print(f"Average dose at your altitude: {altitude_dose} mSv/year")
