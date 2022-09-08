@@ -41,11 +41,11 @@ thyroid scan;1;100;artificial;diagnostic
 lung scan;1;100;artificial;diagnostic
 livery scan;1;100;artificial;diagnostic
 kidney scan;1;100;artificial;diagnostic
-living sea level;0.26;26;natural;living
-living lower 300m;0.28;28;natural;living
-living between 300-600m;0.31;31;natural;living
-living between 600-1200m;0.4;40;natural;living
-living in stone house;0.07;7;natural;living
-living in brick house;0.07;7;natural;living
-living near nuclear plant;0.000009;0.0009;artificial;living
-living near coal plant;0.0003;0.03;artificial;living
+live at sea level;0.26;26;natural;living
+live under 300m;0.28;28;natural;living
+live between 300-600m;0.31;31;natural;living
+live between 600-1200m;0.4;40;natural;living
+live in stone house;0.07;7;natural;living
+live in brick house;0.07;7;natural;living
+live near nuclear plant;0.000009;0.0009;artificial;living
+live near coal plant;0.0003;0.03;artificial;living
