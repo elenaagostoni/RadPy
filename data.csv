@@ -1,8 +1,51 @@
-name;dose (mSv/yr);dose (mrem/yr);source;occurence
-public limit;1;100;both;
-cat A limit;20;2000;both;
-cat B limit;6;600;both;
-false teeth;;0.07;artificial;optional
-gas lantern;;0.003;artificial;optional
-LCD wristwatch;;0.006;artificial;optional
-luggage inspection;;0.002;;
+name;dose (mSv/yr);dose (mrem/yr);source;type
+public limit;1;100;both;limit
+cat A limit;20;2000;both;limit
+cat B limit;6;600;both;limit
+false teeth;0.0007;0.07;artificial;optional
+gas lantern;0.00003;0.003;artificial;optional
+LCD wristwatch;0.00006;0.006;artificial;optional
+luggage inspection;0.00002;0.002;artificial;optional
+1 hour display;0.01;1;artificial;optional
+smoke detector;0.00008;0.008;artificial;optional
+plutonium peacemaker;1;100;artificial;optional
+diagnostic x-ray;0.4;40;artificial;diagnostic
+diagnostic nuclear;0.14;14;artificial;diagnostic
+cosmic background;0.4;40;natural;background
+gamma background;0.5;50;natural;background
+internal;0.3;30;natural;background
+radon;1.2;120;natural;background
+uranium miner;4.5;450;natural;job
+uranium milling;3.3;330;natural;job
+uranium enrichment;0.1;10;natural;job
+fuel fabrication;1;100;artificial;job
+nuclear plant staff;1.2;120;artificial;job
+reprocessing;1.5;150;artificial;job
+radiologist;0.5;50;artificial;job
+dentist;0.06;6;artificial;job
+nuclear medical doctor;0.8;80;artificial;job
+radiotherapist;0.6;60;artificial;job
+irradiation;0.1;10;artificial;job
+radiographist;1.6;160;artificial;job
+isotope production;1.9;190;artificial;job
+well-logging;0.4;40;artificial;job
+accelaerators operator;0.8;80;artificial;job
+luminizing;0.4;40;artificial;job
+coal miner;0.7;70;natural;job
+metal miner;2.7;270;natural;job
+premises above ground;4.8;480;natural;job
+civil aircrew;3;300;natural;job
+brain scan;7;700;artificial;diagnostic
+bone scan;4;400;artificial;diagnostic
+thyroid scan;1;100;artificial;diagnostic
+lung scan;1;100;artificial;diagnostic
+livery scan;1;100;artificial;diagnostic
+kidney scan;1;100;artificial;diagnostic
+living sea level;0.26;26;natural;living
+living lower 300m;0.28;28;natural;living
+living between 300-600m;0.31;31;natural;living
+living between 600-1200m;0.4;40;natural;living
+living in stone house;0.07;7;natural;living
+living in brick house;0.07;7;natural;living
+living near nuclear plant;0.000009;0.0009;artificial;living
+living near coal plant;0.0003;0.03;artificial;living
