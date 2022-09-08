@@ -1,4 +1,8 @@
 import easygui as eg
+import pandas as pd
+
+df = pd.read_csv('data.csv', sep=';', index_col='name')
+dose = 'dose (mSv/yr)'
 
 eg.msgbox(msg='Ionizing radiation is a part of our daily life and it \
 comes from both natural and artificial sources. The latter in \
@@ -9,18 +13,19 @@ personalized estimate of the effective dose you are subjected to each year.',
           ok_button='Let\'s jump right in!',
           image='img/logo.png')
 
-categories = ['public', 'category B', 'category A']
-category = eg.choicebox(msg='Are you a worker in...', title='Work category', choices=categories)
 
-dose_limits = [1, 6, 20]  # mSv/year
-dose_limit = dose_limits[categories.index(category)]
+### Dose limit ###
+dose_df = df.loc[df['type'] == 'limit']
+
+category = eg.choicebox(msg='Are you a worker in...', title='Work category', choices=dose_df.index)
+dose_limit = dose_df.at[category, dose]
 
 print(f"Dose limit: {dose_limit} mSv/year")
 
-altitudes = ['sea level', 'altitude lower than 300 m', 'altitude between 300-600 m', 'altitude between 600-1200 m']
-altitude = eg.choicebox(msg='Do you live at... (Da implementare)', title='Altitude', choices=altitudes)
+### Altitude ###
+alt_df = df.loc[df['type'] == 'altitude']
 
-altitude_doses = [0, 0, 0]  # mSv/year
-altitude_dose = altitude_doses[altitudes.index(altitude)]
+altitude = eg.choicebox(msg='Do you live at...', title='Altitude', choices=alt_df.index)
+altitude_dose = alt_df.at[altitude, dose]
 
 print(f"Average dose at your altitude: {altitude_dose} mSv/year")
