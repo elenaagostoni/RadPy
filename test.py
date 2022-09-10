@@ -18,7 +18,7 @@ personalized estimate of the effective dose you are subjected to each year.',
 # Dose limit
 dose_dataframe = df.loc[df['type'] == 'limit']
 categories = dose_dataframe.index
-category = eg.choicebox(msg='Are you a worker in...', title='Work category', choices=categories)
+category = eg.choicebox(msg='Are you part of...', title='Work category', choices=categories)
 dose_limit = dose_dataframe.at[category, dose_mSv]
 
 print(f"Dose limit: {dose_limit} mSv/year")
