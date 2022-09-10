@@ -1,7 +1,7 @@
 name;dose (mSv/yr);dose (mrem/yr);source;type
-public limit;1;100;both;limit
-cat A limit;20;2000;both;limit
-cat B limit;6;600;both;limit
+general public;1;100;both;limit
+category A worker;20;2000;both;limit
+category B worker;6;600;both;limit
 false teeth;0.0007;0.07;artificial;optional
 gas lantern;0.00003;0.003;artificial;optional
 LCD wristwatch;0.00006;0.006;artificial;optional
